@@ -11,6 +11,19 @@ const db = {
 
 const emb01 = {
   courseId: 'emb-01',
+  title: 'Beginning Embedded C Programming',
+  snippet: 'A course design for beginner',
+  level: 'Beginner',
+  thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+  picture: {
+    type: 'yt',
+    uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
+  },
+  skills: ['C Programming', 'Embedded ARM processor'],
+  certificates: ['Embedded C Programmer'],
+  description: {
+    short: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.'
+  }
 }
 
 
