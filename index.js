@@ -21,8 +21,23 @@ const emb01 = {
   },
   skills: ['C Programming', 'Embedded ARM processor'],
   certificates: ['Embedded C Programmer'],
-  description: {
-    short: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.'
+  objective: [
+    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
+    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et',
+    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
+    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et'
+  ],
+  description: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.',
+  structure: {
+    video: 62,
+    quiz: 16,
+    exercise: 2,
+    test: 1
+  },
+  price: {
+    value: 499000,
+    currency: 'VND',
+    locale: 'it-IT'
   }
 }
 
