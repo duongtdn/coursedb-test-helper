@@ -38,7 +38,8 @@ const emb01 = {
     value: 499000,
     currency: 'VND',
     locale: 'it-IT'
-  }
+  },
+  enroll: 2018
 }
 
 
