@@ -35,11 +35,15 @@ const emb01 = {
     test: 1
   },
   price: {
-    value: 499000,
+    value: 649000,
     currency: 'VND',
     locale: 'it-IT'
   },
-  enroll: 2018
+  enroll: 2018,
+  promote: {
+    discount: 100000,
+    reason: 'Discount for new course'
+  }
 }
 
 
