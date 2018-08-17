@@ -46,6 +46,43 @@ const emb01 = {
   }
 }
 
+const emb02 = {
+  courseId: 'emb-02',
+  title: 'Embedded Peripherals Programming',
+  snippet: 'A course design for people who have basic knowledge',
+  level: 'Intermidate',
+  thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+  picture: {
+    type: 'yt',
+    uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
+  },
+  skills: ['C Programming', 'Embedded ARM processor'],
+  certificates: ['Embedded C Programmer'],
+  objective: [
+    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
+    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et',
+    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
+    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et'
+  ],
+  description: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.',
+  structure: {
+    video: 62,
+    quiz: 16,
+    exercise: 2,
+    test: 1
+  },
+  price: {
+    value: 749000,
+    currency: 'VND',
+    locale: 'it-IT'
+  },
+  enroll: 2018,
+  promote: {
+    discount: 50000,
+    reason: 'Discount for new course'
+  }
+}
+
 
 module.exports = {
 
@@ -167,6 +204,7 @@ module.exports = {
     console.log('Creating new course...')  
     Promise.all([
       this._createNewEntry('tester@team.com', emb01), 
+      this._createNewEntry('tester@team.com', emb02),
     ]).then(values => {
       console.log('Created all courses.')
       done && done();
