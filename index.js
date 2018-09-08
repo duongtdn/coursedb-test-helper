@@ -14,7 +14,7 @@ const emb01 = {
   title: 'Beginning Embedded C Programming',
   snippet: 'A course design for beginner',
   level: 'Beginner',
-  thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+  thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*z8cxJptPtl2JEERdYXChkQ.png',
   picture: {
     type: 'yt',
     uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
@@ -51,7 +51,7 @@ const emb02 = {
   title: 'Embedded Peripherals Programming',
   snippet: 'A course design for people who have basic knowledge',
   level: 'Intermidate',
-  thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+  thumbnail: 'https://harmonyed.com/wp-content/uploads/Online-Courses-1-300x20031.png',
   picture: {
     type: 'yt',
     uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
@@ -88,7 +88,7 @@ const emb03 = {
   title: 'Applied C for Embedded Programming in Detail',
   snippet: 'A course design for people who want to explore more',
   level: 'Advanced',
-  thumbnail: 'https://avatars1.githubusercontent.com/u/17599993?s=88&v=4',
+  thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4MSngvOcZcc_xlli8B0AuwMJCHIChtTtjt0wPTdwS-Tc8Xsi',
   picture: {
     type: 'yt',
     uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
