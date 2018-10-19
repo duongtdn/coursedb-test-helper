@@ -10,113 +10,113 @@ const db = {
 }
 
 const emb01 = {
-  courseId: 'emb-01',
-  title: 'Beginning Embedded C Programming',
-  snippet: 'A course design for beginner',
-  level: 'Beginner',
-  thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*z8cxJptPtl2JEERdYXChkQ.png',
-  picture: {
-    type: 'yt',
-    uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
+  "courseId": "emb-01",
+  "title": "Beginning Embedded C Programming",
+  "snippet": "A course design for beginner",
+  "level": "Beginner",
+  "thumbnail": "https://cdn-images-1.medium.com/max/1200/1*z8cxJptPtl2JEERdYXChkQ.png",
+  "picture": {
+    "type": "yt",
+    "uri": "https://www.youtube.com/embed/tpIctyqH29Q"
   },
-  skills: ['C Programming', 'Embedded ARM processor'],
-  certificates: ['Embedded C Programmer'],
-  objective: [
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et',
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et'
+  "skills": ["C Programming", "Embedded ARM processor"],
+  "certificates": ["Embedded C Programmer"],
+  "objective": [
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et",
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et"
   ],
-  description: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.',
-  structure: {
-    video: 62,
-    quiz: 16,
-    exercise: 2,
-    test: 1
+  "description": "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.",
+  "structure": {
+    "video": 62,
+    "quiz": 16,
+    "exercise": 2,
+    "test": 1
   },
-  price: {
-    value: 649000,
-    currency: 'VND',
-    locale: 'it-IT'
+  "price": {
+    "value": 649000,
+    "currency": "VND",
+    "locale": "it-IT"
   },
-  enroll: 2018,
-  promote: {
-    discount: 100000,
-    reason: 'Discount for new course'
+  "enroll": 2018,
+  "promote": {
+    "discount": 100000,
+    "reason": "Discount for new course"
   }
 }
 
 const emb02 = {
-  courseId: 'emb-02',
-  title: 'Embedded Peripherals Programming',
-  snippet: 'A course design for people who have basic knowledge',
-  level: 'Intermidate',
-  thumbnail: 'https://harmonyed.com/wp-content/uploads/Online-Courses-1-300x20031.png',
-  picture: {
-    type: 'yt',
-    uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
+  "courseId": "emb-02",
+  "title": "Embedded Peripherals Programming",
+  "snippet": "A course design for people who have basic knowledge",
+  "level": "Intermidate",
+  "thumbnail": "https://harmonyed.com/wp-content/uploads/Online-Courses-1-300x20031.png",
+  "picture": {
+    "type": "yt",
+    "uri": "https://www.youtube.com/embed/tpIctyqH29Q"
   },
-  skills: ['C Programming', 'Embedded ARM processor'],
-  certificates: ['Embedded C Programmer'],
-  objective: [
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et',
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et'
+  "skills": ["C Programming", "Embedded ARM processor"],
+  "certificates": ["Embedded C Programmer"],
+  "objective": [
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et",
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et"
   ],
-  description: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.',
-  structure: {
-    video: 62,
-    quiz: 16,
-    exercise: 2,
-    test: 1
+  "description": "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.",
+  "structure": {
+    "video": 62,
+    "quiz": 16,
+    "exercise": 2,
+    "test": 1
   },
-  price: {
-    value: 749000,
-    currency: 'VND',
-    locale: 'it-IT'
+  "price": {
+    "value": 749000,
+    "currency": "VND",
+    "locale": "it-IT"
   },
-  enroll: 2018,
-  promote: {
-    discount: 50000,
-    reason: 'Discount for new course'
+  "enroll": 2018,
+  "promote": {
+    "discount": 50000,
+    "reason": "Discount for new course"
   }
 }
 
 const emb03 = {
-  courseId: 'emb-03',
-  title: 'Applied C for Embedded Programming in Detail',
-  snippet: 'A course design for people who want to explore more',
-  level: 'Advanced',
-  thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4MSngvOcZcc_xlli8B0AuwMJCHIChtTtjt0wPTdwS-Tc8Xsi',
-  picture: {
-    type: 'yt',
-    uri: 'https://www.youtube.com/embed/tpIctyqH29Q'
+  "courseId": "emb-03",
+  "title": "Applied C for Embedded Programming in Detail",
+  "snippet": "A course design for people who want to explore more",
+  "level": "Advanced",
+  "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4MSngvOcZcc_xlli8B0AuwMJCHIChtTtjt0wPTdwS-Tc8Xsi",
+  "picture": {
+    "type": "yt",
+    "uri": "https://www.youtube.com/embed/tpIctyqH29Q"
   },
-  skills: ['C Programming', 'Embedded processor'],
-  certificates: ['Embedded C Programmer', 'C Embedded Developer'],
-  objective: [
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et',
-    'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum',
-    'Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et'
+  "skills": ["C Programming", "Embedded processor"],
+  "certificates": ["Embedded C Programmer", "C Embedded Developer"],
+  "objective": [
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et",
+    "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum",
+    "Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et"
   ],
-  description: 'Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.',
-  structure: {
-    video: 62,
-    quiz: 16,
-    exercise: 2,
-    test: 1
+  "description": "Lorem ipsum dolor sit amet, impetus menandri temporibus an nam, duo no elit euripidis democritum. Illum exerci has ne. Virtute definitionem ut vim, eam malis dictas option ex. Eu persius torquatos vim, usu atqui movet alienum ne, te eam aperiri hendrerit appellantur. Sit brute lorem blandit at. Has an graece sensibus. Sint movet voluptatum nam et.",
+  "structure": {
+    "video": 62,
+    "quiz": 16,
+    "exercise": 2,
+    "test": 1
   },
-  price: {
-    value: 749000,
-    currency: 'VND',
-    locale: 'it-IT'
+  "price": {
+    "value": 749000,
+    "currency": "VND",
+    "locale": "it-IT"
   },
-  enroll: 2018,
-  promote: {
-    discount: 50000,
-    reason: 'Discount for new course'
+  "enroll": 2018,
+  "promote": {
+    "discount": 50000,
+    "reason": "Discount for new course"
   }
 }
 
